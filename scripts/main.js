@@ -148,7 +148,7 @@ async function getInputValue() {
       fri: [
         "DSA lab -> 10:00-12:00",
         "analog -> 1:20-2:00 (202)",
-        "digitlal -> 2:00-2:40 (501)",
+        "digital -> 2:00-2:40 (501)",
         "c++ lab -> 4:00-6:00"
       ]
     };
