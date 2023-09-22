@@ -1,9 +1,9 @@
-# ZNOTRON 👩‍💻
+# XENOTRON 👩‍💻
 
 Welcome to my terminal playground! This web-based terminal eases my day to day workflow with various needs.
 
 1. **Access the Terminal:**
-   - Click on the terminal window below or navigate to [znotron.vercel.app](https://xenotron.vercel.app/) 🌐.
+   - Click on the terminal window below or navigate to [xenotron.vercel.app](https://xenotron.vercel.app/) 🌐.
 
 2. **Type "all" for Command List:**
    - To uncover all available commands, simply type the following and press Enter:
