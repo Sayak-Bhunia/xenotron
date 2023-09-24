@@ -106,7 +106,7 @@ div.title {
 }
 
 p {
-  font-size: 32px;
+  font-size: 16px;
   color: #bb9af7;
   padding: 8px 0;
 }
@@ -132,7 +132,7 @@ p.path {
 
 @media only screen and (max-width: 600px) {
   p.path {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -142,7 +142,7 @@ p.path span {
 
 @media only screen and (max-width: 600px) {
   p.path span {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -152,7 +152,7 @@ p.path span + span {
 
 @media only screen and (max-width: 600px) {
   p.path span + span {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -165,7 +165,13 @@ p.path span + span {
 }
 
 p.response {
-  color: #bb9af7;
+  color: #a9b1d6;
+}
+
+@media only screen and (max-width: 600px) {
+  p.response {
+    font-size: 25px;
+  }
 }
 
 input {
