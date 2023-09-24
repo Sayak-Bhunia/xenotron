@@ -130,12 +130,30 @@ p.path {
   color: #bb9af7;
 }
 
+@media only screen and (max-width: 600px) {
+  p.path {
+    font-size: 20px;
+  }
+}
+
 p.path span {
   color: #23aed2;
 }
 
+@media only screen and (max-width: 600px) {
+  p.path span {
+    font-size: 20px;
+  }
+}
+
 p.path span + span {
   color: #bb9af7;
+}
+
+@media only screen and (max-width: 600px) {
+  p.path span + span {
+    font-size: 20px;
+  }
 }
 
 .sucess {
