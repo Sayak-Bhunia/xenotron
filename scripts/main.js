@@ -19,11 +19,6 @@ app.addEventListener("click", function (event) {
 });
 
 async function open_terminal() {
-  createText("Welcome");
-  await delay(700);
-  createText("Starting the server...");
-  await delay(1500);
-  await delay(500);
   new_line();
 }
 
@@ -32,9 +27,9 @@ function new_line() {
   const span1 = document.createElement("span");
   const span2 = document.createElement("span");
   p.setAttribute("class", "path");
-  p.textContent = "# port";
+  p.textContent = "#";
   span1.textContent = " 2903";
-  span2.textContent = " ~/xenotron-initialize$";
+  span2.textContent = " ~/xenotron$";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
