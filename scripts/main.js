@@ -106,9 +106,7 @@ async function getInputValue() {
     } catch (error) {
       falseValue(`Error fetching weather data: ${error.message}`);
     }
-  } // ...
-
-  if (command === "schedule") {
+  } else if (command === "schedule") {
     if (!location) {
       falseValue(
         "Please specify a day for the schedule command (e.g., schedule Monday)."
@@ -162,6 +160,9 @@ async function getInputValue() {
     } else {
       falseValue(`No classes scheduled for ${location}.`);
     }
+  } else {
+    falseValue(value);
+    createText(`command not found: ${value}`);
   }
 }
 
