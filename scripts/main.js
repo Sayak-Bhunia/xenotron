@@ -113,7 +113,7 @@ async function getInputValue() {
     const classSchedule = {
       mon: [
         "evs -> 11:20-12:00 (406)",
-        "electronics lab -> 12:00-12:40",
+        "electronics lab -> 12:00-2:00",
         "analog -> 3:20-4:00 (501)"
       ],
       tue: [
